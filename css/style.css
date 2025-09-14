@@ -272,12 +272,12 @@ header nav.right {
 
 .asideConnectBtn {
   background: linear-gradient(to bottom, #00e022 0%, #19bb47 100%);
-  font-family: NexaLight, Arial, Helvetica, sans-serif;
+  font-family: Nexa, Arial, Helvetica, sans-serif;
   color: #000;
   text-align: center;
   font-size: 1rem;
   outline: none;
-  padding: 0.25rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   border: none;
   width: 100%;
@@ -1449,10 +1449,10 @@ input:focus {
   .liveChart {
     height: 50vw;
   }
-}
 
-.titleBlurb {
-  display: none;
+  .titleBlurb {
+    display: none;
+  }
 }
 
 /* ========================= ASIDE ========================== */
