@@ -27,9 +27,9 @@ document.getElementById("menuBtn").onclick = (e) => {
 document.querySelector("aside button.close").onclick = (e) => {
   closeMenu();
   hamburger();
-  å;
 };
 
 document.querySelector(".backdropnav").onclick = (e) => {
   closeMenu();
+  hamburger();
 };
