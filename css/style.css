@@ -403,6 +403,11 @@ header {
   width: 100%;
   cursor: pointer;
   transition: transform 0.2s;
+  flex-direction: column;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
 }
 
 .headerConnectBtn:hover {
@@ -499,6 +504,11 @@ section {
   overflow: hidden;
   cursor: pointer;
   pointer-events: all;
+  flex-direction: column;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
 }
 
 .tradeBtn::before {
@@ -529,7 +539,7 @@ section {
   transform: rotate(-45deg) translateY(100%);
 }
 
-/* LAUNCH BTN */
+/* CONNECT */
 
 .connectBtn {
   position: relative;
@@ -543,6 +553,11 @@ section {
   overflow: hidden;
   cursor: pointer;
   pointer-events: all;
+  flex-direction: column;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
 }
 
 .connectBtn::before {
@@ -868,6 +883,11 @@ input:focus {
   border-radius: 8px;
   padding: 0.5rem;
   text-align: center;
+  flex-direction: column;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
 }
 
 .joinLeft .fundCount {
