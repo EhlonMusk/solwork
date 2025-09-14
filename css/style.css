@@ -1603,11 +1603,6 @@ input:focus {
     width: 100%;
   }
 
-  .xPfp {
-    height: 4rem;
-    width: 4rem;
-  }
-
   .xInfo {
     text-align: center;
   }
@@ -1745,11 +1740,6 @@ input:focus {
 
   .leaderboardBox {
     padding: 0.75rem;
-  }
-
-  .xPfp {
-    height: 3rem;
-    width: 3rem;
   }
 
   .numberCount {
